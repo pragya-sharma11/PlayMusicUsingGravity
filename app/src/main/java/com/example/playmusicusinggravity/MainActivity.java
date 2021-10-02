@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        if(event.values[0]>1){
+        if(event.values[1]> 2  ){
+            //      y-direcion, z-direction (values[2]), x-direction values[0]
             mp.start();
             t.setText("Music Starts");
         }
