@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void onSensorChanged(SensorEvent event) {
         if(event.values[0]>1){
             mp.start();
-
+            t.setText("Music Starts");
         }
     }
 
