@@ -4,15 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E91E63"
+    android:rotation="0"
+    android:rotationX="0"
+    android:rotationY="0"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/textView"
+        android:layout_width="367dp"
+        android:layout_height="427dp"
+        android:background="#E3F6FF"
+        android:gravity="center_horizontal|center_vertical"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="3"
+        android:text="Music Stops"
+        android:textColor="#F50E0E"
+        android:textColorHighlight="#21B4F3"
+        android:textSize="85sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
