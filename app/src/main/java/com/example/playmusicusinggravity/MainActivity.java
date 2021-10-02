@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             mp.start();
             t.setText("Music Starts");
         }
+        else{
+            mp.pause();
+            t.setText("Music stops");
+        }
     }
 
     @Override
